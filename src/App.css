@@ -1,0 +1,64 @@
+.box-1 {
+  padding: 10px 0px;
+}
+
+.logo{
+  height: 120px;
+}
+
+.title {
+  padding-top: 27px;
+}
+
+.hours{
+  padding-top: 30px;
+}
+.rect{
+  fill: white;
+  stroke-width: 1px;
+  stroke: black;
+  color: black;
+}
+.text {
+  color: black;
+  position: relative;
+  text-align: center;
+  top: -30px;
+}
+
+.form {
+  padding-bottom: 30px;
+}
+
+.table-1 {
+  border: none;
+  padding-bottom: 20px;
+}
+.table-2 {
+  border: black 1px;
+}
+.table-3 {
+  border: black 1px;
+}
+
+@media screen and (max-width : 400px) {
+  .logo{
+    height: 50px;
+  }
+  .svg {
+    height: 100;
+  }
+  .rect{
+    fill: white;
+    stroke-width: 1px;
+    stroke: black;
+    color: black;
+    height: 100;
+  }
+}
+
+@media screen and (max-width : 540px) {
+  .logo{
+    height: 80px;
+  }
+}
